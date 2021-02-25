@@ -26,7 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-RB9SMJ7</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
+<<<<<<< HEAD
           <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXUHTEi4QR0GMXZgr30fXJAAAAAACAAAAAAAQZgAAAAEAACAAAADJPLsjT75XiF3clgVUTWE1WgL4kOq9aVnjABfD6wKXXAAAAAAOgAAAAAIAACAAAAClw4iogFMuODbUVw1R4CkBWXsFqxyf6bvUcOmEYu7ef5AAAACyNWjSRwk8LGvPMOjebYM+K642SgkJhcjmxAdDRrHYX5D1HvqFloDVuzlYCOIfFa5M9A3rkUqZpB6S2SLz2bJxB+JNwE3F35KG1b6+Nf/SlFaQtUnJhdid0zCP9R6JihLaP9IjxCk+ZNhKCrlC2VbUI0MOZABAj4uZDPQoEw4AQIpGcfWNNqJ9y3s+zhOlSm1AAAAA8ajlT2jSPFWIOWxSXX+uY1c1Z7Jh65aXtFWzFenZIrdZt2J3I1ycJW9RImxSX3DzPmTMUMnDWVPaLdQaB/tEqw==</SSIS:Property>
+=======
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXUHTEi4QR0GMXZgr30fXJAAAAAACAAAAAAAQZgAAAAEAACAAAACuD5peAYgc9wxUign7cCVItUF90LQR+t1qt4vXsdLmdwAAAAAOgAAAAAIAACAAAADOuO6mvdVr+wAM5Vk0d5FJ10JVKtOxFgHA8OtnYGmzvJAAAAAhTT/liULZnVeEHlY7fGE2kZ2jHuSliKDBq4DwtybNBESVPs0bVFC5Upme1bc3bylYs+Mb8rs134nscSladzsSQ2JwQHcHchu73KZcSycdYFFGG2RlqFsch+L+DumtDwnLVMQL7ofHlWMrH6dK0VrXZNxI4VGsmVeMMoEcJOuKfpnfK4rLKMap0DJc3mOsD+lAAAAAnM4kiR/BhaGeQSQ1dG8cXJZzAThiG43BskGwW0ddCZNlp7NCBG4A6h2z1ZUcNF5LXEegkCpM1xRBF/tjLn216g==</SSIS:Property>
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -385,10 +389,17 @@
                 <SSIS:Property SSIS:Name="Name">LoadDFNB3_mv</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+<<<<<<< HEAD
                 <SSIS:Property SSIS:Name="VersionBuild">67</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{98780FC1-70CA-4901-B37E-3127A83AD39C}</SSIS:Property>
+=======
+                <SSIS:Property SSIS:Name="VersionBuild">60</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F93B8D34-189D-49F9-8D42-782485257518}</SSIS:Property>
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -881,8 +892,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< HEAD
                     <SSIS:Property SSIS:Name="Value">
                     </SSIS:Property>
+=======
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -916,6 +930,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b10_txt.AlwaysCheckForRowDelimiters">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
@@ -1114,6 +1129,9 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.AlwaysCheckForRowDelimiters">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.AlwaysCheckForRowDelimiters">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1128,7 +1146,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.CodePage">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.CodePage">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1143,7 +1165,11 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.ColumnNamesInFirstDataRow">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.ColumnNamesInFirstDataRow">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1158,7 +1184,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.ConnectByProxy">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.ConnectByProxy">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1173,7 +1203,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.ConnectionString">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.ConnectionString">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1184,11 +1218,19 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< HEAD
                     <SSIS:Property SSIS:Name="Value">C:\LDSBC\IT_243\repos\DFNB_src\txt_files\stg_p1_b11.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.DataRowsToSkip">
+=======
+                    <SSIS:Property SSIS:Name="Value">C:\LDSBC\IT_243\repos\DFNB_src\txt_files\stg_p1_b2.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.DataRowsToSkip">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1203,7 +1245,11 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.Format">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.Format">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1218,7 +1264,11 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.HeaderRowDelimiter">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.HeaderRowDelimiter">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1234,7 +1284,11 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.HeaderRowsToSkip">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.HeaderRowsToSkip">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1249,7 +1303,11 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.LocaleID">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.LocaleID">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1264,7 +1322,11 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.RowDelimiter">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.RowDelimiter">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1280,7 +1342,11 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.TextQualifier">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.TextQualifier">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1295,6 +1361,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< HEAD
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b11_txt.Unicode">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
@@ -3069,6 +3136,9 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.stg_p1_b9_txt.Unicode">
+=======
+                <SSIS:Parameter SSIS:Name="CM.stg_p1_b2_txt.Unicode">
+>>>>>>> f935372448fcfeb73924c7f7ce18b364067e881b
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
