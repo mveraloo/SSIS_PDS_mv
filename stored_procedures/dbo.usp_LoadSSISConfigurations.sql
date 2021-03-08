@@ -27,6 +27,7 @@ Ver      Date        Author           Description
 1.1      02/06/2021  Mireya           1. Added conn_DFNB3 connection configuration
 1.2      02/21/2021  Mireya           1. LoadDFNB3_mv configuration
 1.3      03/05/2021  Mireya           1. Added LoadEXM_mv configuration
+1.4      03/05/2021  Mireya           1. Added LoadNAICSCodeHierDim_mv configuration
 
 RUNTIME: 
 approx 5 sec
@@ -181,6 +182,27 @@ SELECT c.*
           (
            'LoadEXM_mv'
 		 , 'C:\LDSBC\IT_243\repos\EXM_mv\txt_files'
+         , '\Package.Variables[User::v_data_share_root].Properties[Value]'
+         , 'String'
+          );
+		  
+
+    -- 3.4) LoadNAICSCodeHierDim_mv
+
+    DELETE FROM dbo.[SSIS Configurations]
+     WHERE ConfigurationFilter = 'LoadNAICSCodeHierDim_mv';
+	
+
+	-- 3.4.1) v_data_share_root
+
+    INSERT INTO dbo.[SSIS Configurations](ConfigurationFilter
+                                        , ConfiguredValue
+                                        , PackagePath
+                                        , ConfiguredValueType)
+    VALUES
+          (
+           'LoadNAICSCodeHierDim_mv'
+		 , 'C:\LDSBC\IT_243\repos\DFNB_dw_mv\xls_files'
          , '\Package.Variables[User::v_data_share_root].Properties[Value]'
          , 'String'
           );
